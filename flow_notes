@@ -1,0 +1,8 @@
+Download from SRA
+clean read -> fastp
+Assigns reads to species -> centrifuge or kraken2
+Assemble -> megahit (illumina) spades (st petersburg assembler!) - check qualities with Quast
+Metagenome binning with metabat2/maxbin2 - clean with dastool
+species2bin -> cat or gtdbk
+
+MultiQC for QC analysis and reporting
